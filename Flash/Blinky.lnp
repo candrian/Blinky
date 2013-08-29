@@ -1,0 +1,12 @@
+--cpu Cortex-M4.fp
+".\flash\startup_stm32f40xx.o"
+".\flash\system_stm32f4xx.o"
+".\flash\main.o"
+".\flash\ssd1963_api.o"
+".\flash\stm32f4xx_gpio.o"
+".\flash\stm32f4xx_rcc.o"
+".\flash\ssd1963.o"
+--library_type=microlib --strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

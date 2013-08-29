@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\ARM\Boards\ST\STM32F4-Discovery\Blinky\Blinky.uvproj
+Project File Date:  08/28/2013
+
+<h2>Output:</h2>
+Rebuild target 'STM32F407 Flash'
+assembling startup_stm32f40xx.s...
+compiling system_stm32f4xx.c...
+compiling main.c...
+C:\Documents and Settings\Administrator\Desktop\SSD1963\main.c(45): warning:  #111-D: statement is unreachable
+compiling SSD1963_api.c...
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.h(21): warning:  #1-D: last line of file ends without a newline
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_font.h(1): warning:  #83-D: type qualifier specified more than once
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(270): warning:  #223-D: function "LCD_SetArea" declared implicitly
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(299): warning:  #223-D: function "LCD_SetArea" declared implicitly
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(341): warning:  #223-D: function "LCD_SetArea" declared implicitly
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(321): warning:  #177-D: variable "i" was declared but never referenced
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(322): warning:  #177-D: variable "difference" was declared but never referenced
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(375): warning:  #223-D: function "LCD_SetArea" declared implicitly
+C:\Documents and Settings\Administrator\Desktop\SSD1963\SSD1963_api.c(436): warning:  #1-D: last line of file ends without a newline
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling SSD1963.c...
+SSD1963.c(557): warning:  #177-D: variable "counter" was declared but never referenced
+SSD1963.c(586): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=8824 RO-data=424 RW-data=52 ZI-data=1028  
+".\Flash\Blinky.axf" - 0 Errors, 12 Warning(s).
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407 Flash'
+linking...
+Program Size: Code=8824 RO-data=424 RW-data=52 ZI-data=1028  
+".\Flash\Blinky.axf" - 0 Errors, 0 Warning(s).
+Build target 'STM32F407 Flash'
+linking...
+Program Size: Code=8824 RO-data=424 RW-data=52 ZI-data=1028  
+".\Flash\Blinky.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407 Flash'
+compiling main.c...
+C:\Documents and Settings\Administrator\Desktop\SSD1963\main.c(45): warning:  #111-D: statement is unreachable
+C:\Documents and Settings\Administrator\Desktop\SSD1963\main.c(22): warning:  #177-D: variable "i" was declared but never referenced
+C:\Documents and Settings\Administrator\Desktop\SSD1963\main.c(22): warning:  #177-D: variable "j" was declared but never referenced
+linking...
+Program Size: Code=8788 RO-data=424 RW-data=52 ZI-data=1028  
+".\Flash\Blinky.axf" - 0 Errors, 3 Warning(s).
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+Build target 'STM32F407 Flash'
+compiling main.c...
+linking...
+Program Size: Code=8856 RO-data=424 RW-data=52 ZI-data=1028  
+".\Flash\Blinky.axf" - 0 Errors, 0 Warning(s).
+Load "C:\\Keil\\ARM\\Boards\\ST\\STM32F4-Discovery\\Blinky\\Flash\\Blinky.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
