@@ -1,5 +1,6 @@
-#include "stm32f10x.h"
-
+#include <stm32f4xx.h>
+#include <stdbool.h>
+#include <stdint.h>
 u16 Lcd_Color565(u32 RGB);  // RGB颜色转为16位(565)
 typedef union
 {

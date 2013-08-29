@@ -1,4 +1,7 @@
-#include "stm32f10x.h"
+#include "stm32f4xx.h"
+#include <stdbool.h>
+#include <stdint.h>
+#include "stm32f4xx_gpio.h"
 #include "SSD1963.h"
 #include "SSD1963_api.h"
 #include "SSD1963_font.h"
@@ -284,7 +287,7 @@ void LCD_Square(u16 x0, u16 y0, u16 width, u16 color,u8 fill)
 
 void LCD_ClearCharBox(u16 x,u16 y,u16 color)
 {
-	LCD_Rectangle(x*8,y*16,x*8+8,y*16+16,color,TRUE); 
+	LCD_Rectangle(x*8,y*16,x*8+8,y*16+16,color,true); 
 }
 
 void LCD_DispPic_FullSize(const unsigned char *str)
